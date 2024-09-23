@@ -30,9 +30,13 @@ public class Main
         //h.simulateOneDay(22);
         //System.out.println(h.getCurrentFood());
 
-        Feeder i = new Feeder(100);
-        i.simulateOneDay(5);
-        System.out.println(i);
+        //Feeder i = new Feeder(100);
+        //i.simulateOneDay(5);
+        //System.out.println(i);
+
+        Feeder j = new Feeder(2400);
+        System.out.println(j.simulateManyDays(10, 4));
+        System.out.println("Hello");
 
 
     }
