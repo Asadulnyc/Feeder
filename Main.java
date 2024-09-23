@@ -34,10 +34,12 @@ public class Main
         //i.simulateOneDay(5);
         //System.out.println(i);
 
-        Feeder j = new Feeder(2400);
-        System.out.println(j.simulateManyDays(10, 4));
-        System.out.println("Hello");
-
+        Feeder j = new Feeder(0);
+        System.out.println(j.simulateManyDays(5, 10));
+        System.out.println(j.simulateManyDays(5, 10));
+        System.out.println(j.simulateManyDays(5, 10));
+        System.out.println(j.simulateManyDays(5, 10));
+        System.out.println(j.simulateManyDays(5, 10));
 
     }
 }
