@@ -44,14 +44,17 @@ public class Main
         //System.out.println(k.simulateManyDays(5, 10));
 
         Feeder aTest = new Feeder(500);
-        System.out.println(aTest.simulateOneDay(12));
+        aTest.simulateOneDay(12);
+        System.out.println(aTest.getCurrentFood());
 
         Feeder bTest = new Feeder(1000);
-        System.out.println(bTest.simulateOneDay(22));
+        bTest.simulateOneDay(22);
+        System.out.println(bTest.getCurrentFood());
 
         Feeder cTest = new Feeder(100);
-        System.out.println(cTest.simulateOneDay(5));
-
+        cTest.simulateOneDay(5);
+        System.out.println(cTest.getCurrentFood());
+        
         Feeder dTest = new Feeder(2400);
         System.out.println(dTest.simulateManyDays(10, 4));
         
